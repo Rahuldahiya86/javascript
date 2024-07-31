@@ -1,4 +1,3 @@
-
 // // ======== variables =============
 // //   4 type ways declared variables
 // // automatically , let, const, var
