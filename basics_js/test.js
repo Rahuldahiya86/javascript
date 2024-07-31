@@ -107,20 +107,118 @@
 //     console.log(!x>y)
 // }
 
+
+// ============= ternary operator ===========
+
+// let x = 10
+// console.log(x<9? "ok" :"not ok" )
+
 // ========= Datatype ==========
 // primitive datatype 7 type = NNBBSSU = null, number, boolean, bigint, string, symbol, undefined
 
-{
-    let a = null;
-    let b = 123;
-    let c = true; // false
-    let d = BigInt (324) + BigInt(55)
-    let e = "hello";
-    let f = Symbol("Hello World")
-    let g;
-    console.log(a, b, c, d, e, f, g)
-    console.log(d)
-    console.log(typeof c)
-}
+// 
+//     let a = null;
+//     let b = 123;
+//     let c = true; // false
+//     let d = BigInt (324) + BigInt(55)
+//     let e = "hello";
+//     let f = Symbol("Hello World")
+//     let g;
+//     console.log(a, b, c, d, e, f, g)
+//     console.log(d)
+//     console.log(typeof c)
+// 
 
 // non-primitive datatype = object = key value
+
+// 
+//     const item = {
+//         "Khem": true,
+//         "Anuj": false,
+//         "vicky": 44,
+//         "Ajay": null,
+//     }
+//     console.log(item["anuj"])
+// 
+
+// ============= conditional statements ================
+//  if statement, if else statement, if else if else statement
+
+
+//
+//     let x = "Hello"
+//  x = Number.parseInt(x) // converting the string to a number
+// console.log(typeof x)
+//
+
+// ======== if statement =========
+// let a = 250
+// if(a<30){
+//     console.log('color')
+
+
+// ======== if else statement =========
+
+// let a = 250
+// if(a<30){
+//     console.log('color')
+
+// }else(
+//     console.log('black color')
+// )
+
+// ======== if else if statement =========
+
+
+// let balance = 100;
+// if (balance<500){
+//     console.log('less then 500')
+// } else if(balance<750)
+// {
+//     console.log('less then 750')
+// }else if(balance<950){
+//     console.log('less then 950')
+// }else{
+//     console.log('less then 1200')
+// }
+   
+// let x = 20;
+// if (x>=18){
+//     console.log('you are adult')
+// } else{
+//     console.log('you are minor')
+// }
+
+// let rating = 3.5
+// if (rating<=2){
+//     console.log('bad')
+// } else if(rating>=4){
+//     console.log('good')
+// }else{
+//     console.log('average')
+// }
+    
+// let userLogIn = true;
+// let userLogOut = true;
+// let usercount = 4;
+// if(userLogIn && userLogOut && usercount){
+//     console.log('successfully')
+// }
+
+// let userLogIn = true;
+// let userLogOut = true;
+// let usercount = 4;
+// if(userLogIn || userLogOut || usercount){
+//     console.log('successfully')
+// }
+
+
+// ============practice operators & conditions ============
+
+// let age = prompt('whta is your age')
+// if (age<9 && age<20){
+//     console.log('your age lies between 10 and 20')
+// }
+// else{
+//     console.log('your age doesnt lies between 10 and 20')
+// }
