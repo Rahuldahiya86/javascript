@@ -1,8 +1,8 @@
 
-// // ======== variables =============
-// //   4 type ways declared variables
-// // automatically , let, const, var
-// //   ========== let block scope  ===========
+ // ======== variables =============
+ //   4 type ways declared variables
+ // automatically , let, const, var
+ //   ========== let block scope  ===========
 
 // {
 //     let a = 10;
@@ -16,14 +16,14 @@
 //         console.log(a)
 // }
 
-// //   ========== const block scope  ===========
+//  ========== const block scope  ===========
 
 // {
 //     const a = 19;
 //     console.log(a)
 // }
 
-// //   ========== var global scope  ===========
+//  ========== var global scope  ===========
 
 // var a = 33;
 // var a = 44;
@@ -34,8 +34,8 @@
 //     console.log(a)
 // }
 
-// // ======== operators ==========
-// // airthmatic operators
+// ======== operators ==========
+// airthmatic operators
 
 // {
 //     let a = 55;
@@ -51,7 +51,7 @@
     
 // }
 
-// // assignment operators
+//assignment operators
 
 //  {
 // let a = 1;
@@ -89,7 +89,7 @@
 //     console.log("comp1 >= comp2", comp1 >= comp2)
 //  } 
 
-// //  ========== logical operators ==========
+//  ========== logical operators ==========
 
 // {
 //     let x = 10;
@@ -222,4 +222,43 @@
 // else{
 //     console.log('your age doesnt lies between 10 and 20')
 // }
-// hlo
+
+// let age = 13;
+// switch (age){
+//     case 10:
+//     console.log('your age is 10')
+//     break
+//     case 11:
+//     console.log('your age is 11')
+//     break
+//     case 12:
+//     console.log('your age is 12')
+//     break
+//     case 13:
+//     console.log('your age is 13')
+//     break
+//     default:
+//     console.log('your age is not special')
+// }
+
+// ============= loops =================
+
+// ======= for loop =========
+
+// for (let i = 0 ; i < 20; i++){
+//     console.log(i)
+// }
+
+// let sum = 0;
+// let n = 6;
+// for (let i = 0 ; i <= n ; i++){
+//   sum = sum + i;
+// }
+// console.log('sum=', sum)
+
+let car = ['Volvo', 'BMW', 'Scoda', 'Ford', 'Fiat']
+for (let i = 0; i < car.length; i++) {
+       console.log(car[i]);
+    }
+
+
