@@ -1,3 +1,4 @@
+
 // // ======== variables =============
 // //   4 type ways declared variables
 // // automatically , let, const, var
@@ -221,3 +222,4 @@
 // else{
 //     console.log('your age doesnt lies between 10 and 20')
 // }
+// hlo
