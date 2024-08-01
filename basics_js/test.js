@@ -256,9 +256,153 @@
 // }
 // console.log('sum=', sum)
 
-let car = ['Volvo', 'BMW', 'Scoda', 'Ford', 'Fiat']
-for (let i = 0; i < car.length; i++) {
-       console.log(car[i]);
-    }
+// let car = ['Volvo', 'BMW', 'Scoda', 'Ford', 'Fiat']
+// for (let i = 0; i < car.length; i++) {
+//        console.log(car[i]);
+//     }
+
+// for (let index = 0; index < array.length; index++) {
+//    const element = array[index];
+   
+// }    
 
 
+// ============= while loop =============
+
+// let car = ['Volvo', 'BMW', 'Scoda', 'Ford', 'Fiat' , 'maruti']
+
+// let i = 0
+// while(i <= car.length){
+//  console.log(car[i])
+//  i++
+// }
+
+//  ============== do while loop ==============
+
+// let car = ['Volvo', 'BMW', 'Scoda', 'Ford', 'Fiat' , 'maruti']
+
+// let i = 0
+// do{
+//    console.log(car[i])
+//    i++;
+// }while(i <= car.length);
+
+// ============== for-of loop val return kre ga =============
+
+// let str = "Khemsingh"
+
+// for(let i of str) // iterator
+//    {
+//    console.log('i=',i);
+// }
+
+
+// ============== for-in loop key return kre ga   =============
+
+// let student ={
+//    Name : 'Khem singh',
+//    Class : 12,
+//    Age : 18,
+//    Marks : 33,
+//    isPass : true,
+// }
+// for(let key in student){
+//    console.log('key=',key,'value =',student[key])
+//  }
+
+//  ========== practice =========
+//  for ( num = 0 ; num <= 100 ; num++){
+//    if(num % 2 === 0 ){
+//          //even number 
+//          console.log(num)
+//       }
+//  }
+
+//  for ( num=0 ; num<=100 ; num++){
+//    if(num % 2 !== 0 ){
+//          //odd number 
+//          console.log(num)
+//       }
+//  }
+
+//  let game = 33;
+//  let user = prompt('hello');
+
+//  while(game != user){
+//    user = prompt('wrong');
+//  }console.log('good');
+
+//  let myArray = ['Spidermen', 'thor', 'betmen']
+//  for(let key in myArray){
+//        console.log('key=',key,'value =',myArray[key])
+//     }
+   
+   //  let myArray = ['Spidermen', 'thor', 'betmen']
+   //  for(let i = 0; i < myArray.length; i++){
+   //    console.log(i,myArray[i])
+   //  }
+ 
+   // for(let i=1; i<=20; i++){
+      
+   //    if(i == 11){
+   //       console.log(`11 value dtected ${i}` )
+   //      // break
+   //       // continue
+   //    }
+   //    console.log(i)
+   // }
+ 
+   // ========== function ===========
+
+   // function myFunction(){
+   //    console.log('Hello World!');
+   // }
+   // myFunction();
+
+   // function myFunction(msg){
+   //    //parameter input
+   //    console.log(msg);
+   // }
+   // myFunction('Hello world');
+
+   // function sum(x, y){
+   //    console.log(x * y)
+   // }
+   // sum(53, 24)
+
+   // function mul(x, y){
+   //      mul = x * y;
+   //      return mul;
+   //    }
+   //    let val = mul(53, 24)
+   //    console.log(val)
+
+
+//   let myArray=['44','54', '65', '54', '22']
+//     const newArr = myArray[2] * 2 ;
+//     console.log(newArr)
+
+//   =============Arrow Function=============
+// ======== sum function ========
+// function sum(a, b){
+//    return a + b;
+// }
+
+// modern js
+
+let arrowSum=(a, b)=>{
+   console.log(a + b);
+};
+arrowSum(4, 8)
+
+// ======== multiplication function ========
+// function mul(a, b){
+//    return a * b;
+// }
+
+// modern js
+
+let arrowMul=(a, b)=>{
+   console.log(a * b);
+};
+arrowMul(4, 8)
