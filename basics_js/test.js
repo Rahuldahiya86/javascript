@@ -463,7 +463,7 @@
 // }
 // }
 
-// ==========practice function=========== 
+// ==========practice loops=========== 
 
 // ========== Question = #1 — Print the numbers from 0 to 15 =============
 {
@@ -535,5 +535,152 @@
   for(let i = 0; i < num.length; i++){
      sum = sum + num[i];
   }
-  console.log('This is sum: ' +sum );
+  //console.log('This is sum: ' , sum );
+  console.log(`this is sum ${sum}`)
+}
+
+// ==========practice If else=========== 
+
+// ========== Question = #1 — Determine If a Number Is Positive =============
+//Write a program that determines whether a given number is positive or not.
+
+
+{
+   let a = 5;
+   if( a > 4){
+      console.log(" This Number is positive")
+   }else {
+      console.log("This number is not positive")
+   }
+}
+
+// ========== Question =  #2 — Check Even or Odd =============
+// Write a program that checks if a number is even or odd.
+
+{
+let number = 9;
+if ( number % 2 ===0){
+   console.log('this is even number')
+}
+else {
+   console.log('THis is odd number')
+}
+}
+
+
+// ========== Question =   #3 — Determine the Greater Number =============
+//Write a program to determine the greater of two numbers.
+
+{
+   let x = 13;
+   let y = 17;
+   if(x > y){
+      console.log('x is greater')
+   }else{
+      console.log('y is greater')
+   }
+}
+
+// ========== Question =    #4 — Grade Calculator ============
+//Write a program that assigns a letter grade based on a numerical
+
+
+{
+   let number = 73;
+   let grade; 
+   if(number >= 90){
+      console.log('A')
+   }else if(number >= 80){
+      console.log('B')
+   }else if(number >= 70){
+   console.log('C')
+   }else{
+      console.log('D')
+   }
+}
+
+// ========== Question =  #5 - Ticket Pricing ============
+//Write a program that calculates the ticket price based on age.
+
+let age = 22;
+let ticketprice;
+
+if(age < 15){
+  console.log(`ticketprice = ${10}`)
+}else if(age >= 15 && age < 20){
+   console.log(`ticketprice = ${15}`)
+}else if(age >= 20 && age < 25){
+   console.log(`ticketprice = ${20}`)
+}
+else{
+   console.log(`ticketprice = ${30}`)
+}
+
+   // ========== Question =  #6 - Determine Leap Year ============
+   //Write a program that determines if a year is a leap year.
+
+   let year = 2024;
+   
+   if(year % 4 === 0 && (year % 100 !== 0 || year % 400 === 0)){
+      console.log(year , 'is a leap year')
+   }else{
+      console.log(year, 'is not a leap year')
+   }
+
+  //============ Question = #7 — Shopping Discount =============
+  //Write a program that calculates a discount based on the purchase amount.
+
+
+  let purchaseamount = 150;
+  let discount;
+
+  if(purchaseamount >= 120){
+   console.log(`discount = ${20} %`)
+  }else if(purchaseamount >= 80){
+   console.log(`discount = ${10} %`)
+  }else{
+   console.log(`discount = ${0} %`)
+  }
+
+    //============ Question = #8 — Time of Day Greeting =============
+    // Write a program that greets the user based on the time of day.
+
+    {
+    let time = new Date();
+    let hour = time.getHours();
+    console.log(time)
+    let greeting;
+    if(hour < 12){
+      console.log("Good morning")
+    }else if(hour < 18 )
+    {
+      console.log("Good afternoon")
+    }
+    else{
+      console.log("Good evening")
+    }
+   }
+
+
+    //============ Question = #9 —  Number Guessing Game===========
+    // Write a simple number guessing game.
+
+    {
+      let number = 9;
+      let guess = 8;
+
+      if(guess === number){
+         console.log("Congratulations! You guessed the correct number.")
+      }else if(guess < number){
+         console.log("Try a higher number.")
+      }
+      else{
+         console.log("Try a lower number.")
+      }
+    }
+
+{
+    const min = 1;
+const max = 6;
+console.log(Math.floor(Math.random() * (max - min +1) + min));
 }
