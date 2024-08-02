@@ -1,8 +1,8 @@
 
- // ======== variables =============
- //   4 type ways declared variables
- // automatically , let, const, var
- //   ========== let block scope  ===========
+// //  // ======== variables =============
+// //  //   4 type ways declared variables
+// //  // automatically , let, const, var
+// //  //   ========== let block scope  ===========
 
 // {
 //     let a = 10;
@@ -16,14 +16,14 @@
 //         console.log(a)
 // }
 
-//  ========== const block scope  ===========
+// // //  ========== const block scope  ===========
 
 // {
 //     const a = 19;
 //     console.log(a)
 // }
 
-//  ========== var global scope  ===========
+// // //  ========== var global scope  ===========
 
 // var a = 33;
 // var a = 44;
@@ -34,8 +34,8 @@
 //     console.log(a)
 // }
 
-// ======== operators ==========
-// airthmatic operators
+// // // ======== operators ==========
+// // // airthmatic operators
 
 // {
 //     let a = 55;
@@ -51,7 +51,7 @@
     
 // }
 
-//assignment operators
+// // //assignment operators
 
 //  {
 // let a = 1;
@@ -72,9 +72,9 @@
 //  let f = 1;
 //  f %= 5;
 //  console.log(f)
-//  }
+//   }
 
- // comparison operators
+// //  // comparison operators
 
 //  {
 //     let comp1 = 30;
@@ -89,7 +89,7 @@
 //     console.log("comp1 >= comp2", comp1 >= comp2)
 //  } 
 
-//  ========== logical operators ==========
+// // //  ========== logical operators ==========
 
 // {
 //     let x = 10;
@@ -108,15 +108,15 @@
 // }
 
 
-// ============= ternary operator ===========
+// // // ============= ternary operator ===========
 
-// let x = 10
-// console.log(x<9? "ok" :"not ok" )
+// { let x = 10
+// console.log(x<9? "ok" :"not ok" ) }
 
-// ========= Datatype ==========
-// primitive datatype 7 type = NNBBSSU = null, number, boolean, bigint, string, symbol, undefined
+// // // ========= Datatype ==========
+// // // primitive datatype 7 type = NNBBSSU = null, number, boolean, bigint, string, symbol, undefined
 
-// 
+// {
 //     let a = null;
 //     let b = 123;
 //     let c = true; // false
@@ -127,11 +127,12 @@
 //     console.log(a, b, c, d, e, f, g)
 //     console.log(d)
 //     console.log(typeof c)
-// 
+// }
 
-// non-primitive datatype = object = key value
 
-// 
+// // // non-primitive datatype = object = key value
+
+// { 
 //     const item = {
 //         "Khem": true,
 //         "Anuj": false,
@@ -139,26 +140,30 @@
 //         "Ajay": null,
 //     }
 //     console.log(item["anuj"])
-// 
-
-// ============= conditional statements ================
-//  if statement, if else statement, if else if else statement
+// }
 
 
-//
+// // // ============= conditional statements ================
+// // //  if statement, if else statement, if else if else statement
+
+
+// {
 //     let x = "Hello"
 //  x = Number.parseInt(x) // converting the string to a number
 // console.log(typeof x)
-//
+// }
 
-// ======== if statement =========
-// let a = 250
+// // // ======== if statement =========
+// {
+// let a = 25
 // if(a<30){
 //     console.log('color')
+//    }
+// }
 
 
-// ======== if else statement =========
-
+// // // ======== if else statement =========
+// {
 // let a = 250
 // if(a<30){
 //     console.log('color')
@@ -166,9 +171,11 @@
 // }else(
 //     console.log('black color')
 // )
+// }
 
-// ======== if else if statement =========
+// // // ======== if else if statement =========
 
+// {
 
 // let balance = 100;
 // if (balance<500){
@@ -181,14 +188,20 @@
 // }else{
 //     console.log('less then 1200')
 // }
-   
+
+// }
+
+//    {
 // let x = 20;
 // if (x>=18){
 //     console.log('you are adult')
 // } else{
 //     console.log('you are minor')
 // }
+//    }
 
+
+// {
 // let rating = 3.5
 // if (rating<=2){
 //     console.log('bad')
@@ -197,32 +210,40 @@
 // }else{
 //     console.log('average')
 // }
-    
+// }
+
+// {
 // let userLogIn = true;
 // let userLogOut = true;
 // let usercount = 4;
 // if(userLogIn && userLogOut && usercount){
 //     console.log('successfully')
 // }
+// }
 
+// {
 // let userLogIn = true;
 // let userLogOut = true;
 // let usercount = 4;
 // if(userLogIn || userLogOut || usercount){
 //     console.log('successfully')
 // }
-
-
-// ============practice operators & conditions ============
-
-// let age = prompt('whta is your age')
-// if (age<9 && age<20){
-//     console.log('your age lies between 10 and 20')
-// }
-// else{
-//     console.log('your age doesnt lies between 10 and 20')
 // }
 
+
+// // // ============practice operators & conditions ============
+
+// // {
+// // let age = prompt('whta is your age')
+// // if (age<9 && age<20){
+// //     console.log('your age lies between 10 and 20')
+// // }
+// // else{
+// //     console.log('your age doesnt lies between 10 and 20')
+// // }
+// // }
+
+// {
 // let age = 13;
 // switch (age){
 //     case 10:
@@ -240,35 +261,37 @@
 //     default:
 //     console.log('your age is not special')
 // }
+// }
 
-// ============= loops =================
+// // ============= loops =================
 
-// ======= for loop =========
-
+// // ======= for loop =========
+// {
 // for (let i = 0 ; i < 20; i++){
 //     console.log(i)
 // }
+// }
 
+// {
 // let sum = 0;
 // let n = 6;
 // for (let i = 0 ; i <= n ; i++){
 //   sum = sum + i;
 // }
 // console.log('sum=', sum)
+// }
 
+// {
 // let car = ['Volvo', 'BMW', 'Scoda', 'Ford', 'Fiat']
 // for (let i = 0; i < car.length; i++) {
 //        console.log(car[i]);
 //     }
-
-// for (let index = 0; index < array.length; index++) {
-//    const element = array[index];
-   
-// }    
+//    }
 
 
-// ============= while loop =============
+// // ============= while loop =============
 
+// {
 // let car = ['Volvo', 'BMW', 'Scoda', 'Ford', 'Fiat' , 'maruti']
 
 // let i = 0
@@ -276,9 +299,11 @@
 //  console.log(car[i])
 //  i++
 // }
+// }
 
-//  ============== do while loop ==============
+// //  ============== do while loop ==============
 
+// {
 // let car = ['Volvo', 'BMW', 'Scoda', 'Ford', 'Fiat' , 'maruti']
 
 // let i = 0
@@ -286,19 +311,23 @@
 //    console.log(car[i])
 //    i++;
 // }while(i <= car.length);
+// }
 
-// ============== for-of loop val return kre ga =============
+// // ============== for-of loop val return kre ga =============
 
+// {
 // let str = "Khemsingh"
 
 // for(let i of str) // iterator
 //    {
 //    console.log('i=',i);
 // }
+// }
 
 
 // ============== for-in loop key return kre ga   =============
 
+// {
 // let student ={
 //    Name : 'Khem singh',
 //    Class : 12,
@@ -307,10 +336,11 @@
 //    isPass : true,
 // }
 // for(let key in student){
-//    console.log('key=',key,'value =',student[key])
+//    con
+// }sole.log('key=',key,'value =',student[key])
 //  }
 
-//  ========== practice =========
+// //  ========== practice =========
 //  for ( num = 0 ; num <= 100 ; num++){
 //    if(num % 2 === 0 ){
 //          //even number 
@@ -325,84 +355,109 @@
 //       }
 //  }
 
+//  {
 //  let game = 33;
 //  let user = prompt('hello');
 
 //  while(game != user){
 //    user = prompt('wrong');
 //  }console.log('good');
+// }
 
+// {
 //  let myArray = ['Spidermen', 'thor', 'betmen']
 //  for(let key in myArray){
 //        console.log('key=',key,'value =',myArray[key])
 //     }
-   
-   //  let myArray = ['Spidermen', 'thor', 'betmen']
-   //  for(let i = 0; i < myArray.length; i++){
-   //    console.log(i,myArray[i])
-   //  }
+//    }
+
+//    {
+//     let myArray = ['Spidermen', 'thor', 'betmen']
+//     for(let i = 0; i < myArray.length; i++){
+//       console.log(i,myArray[i])
+//     }
+//    }
  
-   // for(let i=1; i<=20; i++){
+//    {
+//    for(let i=1; i<=20; i++){
       
-   //    if(i == 11){
-   //       console.log(`11 value dtected ${i}` )
-   //      // break
-   //       // continue
-   //    }
-   //    console.log(i)
-   // }
+//       if(i == 11){
+//          console.log(`11 value dtected ${i}` )
+//         // break
+//          // continue
+//       }
+//       console.log(i)
+//    }
+// }
  
-   // ========== function ===========
+//    // ========== function ===========
+// {
+//    function myFunction(){
+//       console.log('Hello World!');
+//    }
+//    myFunction();
+// }
 
-   // function myFunction(){
-   //    console.log('Hello World!');
-   // }
-   // myFunction();
 
-   // function myFunction(msg){
-   //    //parameter input
-   //    console.log(msg);
-   // }
-   // myFunction('Hello world');
+// {
+//    function myFunction(msg){
+//       //parameter input
+//       console.log(msg);
+//    }
+//    myFunction('Hello world');
+// }
 
-   // function sum(x, y){
-   //    console.log(x * y)
-   // }
-   // sum(53, 24)
 
-   // function mul(x, y){
-   //      mul = x * y;
-   //      return mul;
-   //    }
-   //    let val = mul(53, 24)
-   //    console.log(val)
+// {
+//    function sum(x, y){
+//       console.log(x * y)
+//    }
+//    sum(53, 24)
+// }
+
+    
+//    {
+//    function mul(x, y){
+//         mul = x * y;
+//         return mul;
+//       }
+//       let val = mul(53, 24)
+//       console.log(val)
+//    }
 
 
 //   let myArray=['44','54', '65', '54', '22']
 //     const newArr = myArray[2] * 2 ;
 //     console.log(newArr)
 
-//   =============Arrow Function=============
-// ======== sum function ========
-// function sum(a, b){
-//    return a + b;
+// //   =============Arrow Function=============
+// // ======== sum function ========
+// // modern js
+
+// {
+//    let arrowSum=(a, b)=>{
+//    console.log(a + b);
+// };
+// arrowSum(4, 8)
 // }
 
-// modern js
+// // ======== multiplication function ========
+// // modern js
 
-let arrowSum=(a, b)=>{
-   console.log(a + b);
-};
-arrowSum(4, 8)
-
-// ======== multiplication function ========
-// function mul(a, b){
-//    return a * b;
-// }
-
-// modern js
-
+{
 let arrowMul=(a, b)=>{
    console.log(a * b);
 };
-arrowMul(4, 8)
+arrowMul(4, 8);
+}
+
+{
+let age= 18;
+
+if(age <= 17){
+   console.log("minor")
+}
+else{
+   console.log("adult")
+}
+}
