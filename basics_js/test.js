@@ -705,83 +705,201 @@
 
 
 
-// //  ========== arrays ============
-// {
-// let marks = [47, 64, 93, 47, 39, 83]
-// console.log(marks)
-// console.log(marks.length)//property
-// }
-
-// {
-//    let marks = [47, 64, 93, 47, 39, 83]
-//    marks [0]=66 // change only array marks 
-//    console.log(marks)
-//    console.log(marks.length)//property
-//    }
-
-//    {
-//       let heros =['Thor', 'Spiderman', 'Betman', 'Hulk', 'Loki']
-//       // using a for loop
-//       for(let i = 0; i < heros.length; i++){
-//          console.log(heros[i])
-//       }
-//    }
-// {
-//       let cities =['Goa', 'Pune', 'Haryana', 'Delhi', 'Mumbai']
-//       // using an for of loop
-//       for(let city of cities){
-//          console.log(city.toUpperCase())
-//       }
-//    }
-
-//    // ========practice Array ===========
-// {
-//    // using for of
-//    let marks = [85, 97, 44, 37, 76, 60]
-//   let sum = 0;
-//   for (let val of marks){
-//    sum = sum + val
-//   }
-//   let avg = sum / marks.length
-//   console.log(avg)
-// }
-// {
-//    // using for loop
-//    let marks = [85, 97, 44, 37, 76, 60];
-//    let sum = 0;
-//    let count = marks.length;
-//    for(let i = 0; i < count; i++){
-//     sum += marks[i]
-//    }
-//    let avg = sum / count;
-//    console.log(avg)
-
-// }
-   
-// {
-//    // Smallest value p
-//    let marks = [85, 97, 44, 22, 37, 76, 60, 25];
-
-// let smallestNumber = marks[0]; //-> 85
-
-// for(let i=0; i<marks.length; i++){
-//  if(smallestNumber > marks[i])
-//    smallestNumber = marks[i]
-// }
-// console.log('smallest value:',smallestNumber);
-// }
-
+//  ========== arrays ============
+{
+let marks = [47, 64, 93, 47, 39, 83]
+console.log(marks)
+console.log(marks.length)//property
+}
 
 {
-   let numbers = [95, 55, 34, 3, 30, 30, 48, 27]
-   let smallNUM = numbers[0];
+   let marks = [47, 64, 93, 47, 39, 83]
+   marks [0]=66 // change only array marks 
+   console.log(marks)
+   console.log(marks.length)//property
+   }
 
-   for (let i=0; i<numbers.length-1; i++){
-      if(smallNUM < numbers[i]){
-         smallNUM = smallNUM;
-      } else{
-         smallNUM = numbers[i];
+   {
+      let heros =['Thor', 'Spiderman', 'Betman', 'Hulk', 'Loki']
+      // using a for loop
+      for(let i = 0; i < heros.length; i++){
+         console.log(heros[i])
       }
    }
-   console.log(smallNUM);
+{
+      let cities =['Goa', 'Pune', 'Haryana', 'Delhi', 'Mumbai']
+      // using an for of loop
+      for(let city of cities){
+         console.log(city.toUpperCase())
+      }
+   }
+
+   // ========practice Array ===========
+{
+   // using for of
+   let marks = [85, 97, 44, 37, 76, 60]
+  let sum = 0;
+  for (let val of marks){
+   sum = sum + val
+  }
+  let avg = sum / marks.length
+  console.log(avg)
+}
+{
+   // using for loop
+   let marks = [85, 97, 44, 37, 76, 60];
+   let sum = 0;
+   let count = marks.length;
+   for(let i = 0; i < count; i++){
+    sum = sum + marks[i]
+   }
+   let avg = sum / count;
+   console.log(avg)
+
+}
+
+{
+   let marks = [49, 49, 23, 94, 43]
+  let sum = 0;
+  let count = marks.length
+  for(let i = 0; i < count; i++){
+       sum = sum + marks[i];
+  }
+  let val = sum / count
+   console.log(val)
+}
+{
+   let marks = [49, 49, 23, 94, 43];
+   let sum = 0;
+   for(let val of marks){
+      sum = sum + val;
+   }
+   let value = sum / marks.length
+   console.log(value)
+}
+   
+ {
+   // Smallest value 
+   let marks = [85, 97, 44, 22, 37, 76, 60, 25];
+
+let smallestNumber = marks[0]; //-> 85
+
+for(let i=0; i<marks.length; i++){
+ if(smallestNumber > marks[i])
+   smallestNumber = marks[i]
+}
+console.log('smallest value:',smallestNumber);
+}
+
+ // Smallest value 
+{
+   let marks = [5, 55, 95, 34, 3, 30, 30, 48, 27]
+   let smallNUM = marks[0];
+
+   for (let i=0; i<marks.length; i++){
+      if(smallNUM < marks[i]){
+         smallNUM = smallNUM;
+      } else{
+         smallNUM = marks[i];
+      }
+   }
+   console.log('smallest value:',smallNUM);
+}
+
+
+// 10% offer
+{
+let items = [250, 645, 300, 900,50];
+let i=0; 
+for (let val of items){
+   console.log(`value of index ${i} = ${val}`);
+   let off = val / 10; 
+   items[i] -= off;
+   console.log(items[i])
+   i++
+}
+}
+
+{
+   let items = [500, 645, 200, 990, 510];
+   for(let i = 0; i < items.length; i++){
+   let offer = items[i] / 10
+   items[i] -= offer
+   }
+   console.log(items);
+}
+
+// ========== Array methods =========
+
+// ===push add something end same array mein change krta hai====
+
+{
+   let Cartoons = ['Tom', 'Jerry', 'Nobita', 'Sizuka'];
+   Cartoons.push('Doraemon', 'Suneo',)
+   console.log(Cartoons)
+}
+
+// =====pop deleted something end same array me change krta hai=====
+{
+   let Cartoons = ['Tom', 'Jerry', 'Nobita', 'Sizuka'];
+   Cartoons.pop()
+   console.log(Cartoons)
+
+}
+
+
+// ====== to string (change array to string use == toString) new string return krta hai======
+{
+   let Cartoons = ['Tom', 'Jerry', 'Nobita', 'Sizuka'];
+   console.log(Cartoons.toString())
+}
+
+// ===== concat ===== (New array create krta hai)
+
+{
+   let marvelHeros=['thor', 'drStrang']
+   let dc_heros=['spiderman', 'betman']
+   let indianHeros=['shaktiman','krish']
+   let heros=marvelHeros.concat(dc_heros, indianHeros );
+   console.log(heros);
+}
+
+//  =====Unshift =====(add something start)
+{
+let Cartoons = ['Tom', 'Jerry', 'Nobita', 'Sizuka'];
+Cartoons.unshift('Doreamon');
+console.log(Cartoons)
+}
+
+//  =====shift =====(add something start)
+
+let Cartoons = ['Tom', 'Jerry', 'Nobita', 'Sizuka'];
+Cartoons.shift();
+console.log(Cartoons)
+
+//  =====slice =====(original array k ander change nhi krta)
+{
+let Cartoons = ['Tom', 'Jerry', 'Nobita', 'Sizuka'];
+
+console.log(Cartoons.slice(0,3))
+}
+
+//  =====splice =====(original array k ander add, remove, replace)
+
+{
+   let marvelHeros=['thor', 'drStrang','spiderman', 'betman', 'hulk']
+    marvelHeros.splice(2,1,"Hello") 
+    console.log(marvelHeros)
+}
+
+// ====let practice=====
+
+{
+   let companies=["Bloomberg", "Microsoft", "Uber", "Google","Ibm", "Netflix"]
+   companies.shift();
+   console.log(companies);
+   companies.splice(1,1,"Ola");
+   console.log(companies);
+   companies.push('Amazon');
+   console.log(companies);
 }
