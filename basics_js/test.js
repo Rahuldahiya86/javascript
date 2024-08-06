@@ -903,3 +903,43 @@ console.log(Cartoons.slice(0,3))
    companies.push('Amazon');
    console.log(companies);
 }
+
+// ====== string =======
+
+{
+   let str = "helloWorld!";
+   let str2 = "hello";
+   console.log(str.length)
+   console.log(str2.length)
+   console.log(str[0])
+   console.log(str2[0])
+}
+
+// template literals 
+
+{
+    let specialString = `This is a template literals`;
+    console.log(specialString)
+    console.log(typeof specialString)
+}
+
+// FOR EXAMPLE double coat & single coat
+
+{
+   let obj = {
+         item : "pen",
+         price : 10,
+   }
+   console.log("The cost of", obj.item, "is", obj.price)
+}
+
+
+// FOR EXAMPLE haptics
+{
+      let obj = {
+            item : "pen",
+            price : 10,
+      }
+      console.log(`The cost of ${obj.item} is ${obj.price}`)
+   
+}
