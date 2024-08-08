@@ -121,12 +121,12 @@
 // a = 'Vicky' // error show hoga
 
 
-const a1 = {
-   name: 'Rahul',
-   marks: 40,
-   isTeacher: false
-}
-a1 ['friend'] = 'Vicky' // error show hoga
-console.log(a1)
+// const a1 = {
+//    name: 'Rahul',
+//    marks: 40,
+//    isTeacher: false
+// }
+// a1 ['friend'] = 'Vicky' // error show hoga
+// console.log(a1)
 
 
