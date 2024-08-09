@@ -139,13 +139,27 @@
 //     console.log("Your age is not special");
 // }
 
-let num = prompt("what is your age");
+// let num = prompt("what is your age");
 
-if (num % 2 == 0 && num % 3 == 0) {
-  console.log("your number is divisible by 2 & 3");
-} else {
-  console.log("your number is not divisible by 2 & 3");
-}
+// if (num % 2 == 0 && num % 3 == 0) {
+//   console.log("your number is divisible by 2 & 3");
+// } else {
+//   console.log("your number is not divisible by 2 & 3");
+// }
+
+// let num = prompt("what is your age");
+
+// if (num % 2 == 0 || num % 3 == 0) {
+//   console.log("your number is divisible by 2 & 3");
+// } else {
+//   console.log("your number is not divisible by 2 & 3");
+// }
+
+// ==== ternory operater ====
+// let age = 17;
+// let a = age >= 18 ? "you can drive" : "you cannot drive";
+// console.log(a);
+
 
 
 
