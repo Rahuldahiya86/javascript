@@ -19,7 +19,7 @@
 
 // === arrays methods ===
 
-let x = [49, 58, 87, 89, 65, "Hello"]
+// let x = [49, 58, 87, 89, 65, "Hello"]
 // let y = x.toString() // convert to string
 // console.log(x)
 // console.log(y)
@@ -31,14 +31,17 @@ let x = [49, 58, 87, 89, 65, "Hello"]
 // let a = x.pop() // pop return the popped element
 // console.log(x)
 // console.log(x,a)
-let b = x.push("90") // push return the new array length.................
-console.log(x)
-console.log(x,b)
+// let b = x.push("90") // push return the new array length.................
+// console.log(x)
+// console.log(x,b)
 // let c = x.shift() // remove an element from the start of the array
 // console.log(x)
 // console.log(x,c)
 // let d = x.unshift(78) // add an element from the start of the array 
 // console.log(x)
 // console.log(x,d)
+
+let x = [90, 89, 43, 54, 67, 78, 65, 64]
+delete x[0]
 
 
