@@ -103,7 +103,7 @@
 // let num = [32, 45, 76, 54, 56, 23]
 // for (let arr in num){
 //     console.log(arr) 
-//     console.log(arr[num ]) 
+//     console.log(num[arr]) 
 // }
 
 
@@ -180,11 +180,11 @@
 
 // ==== practice - 4 ====
 
-let num = [32, 45, 76, 54, 56, 30, 33, 2, 4, 60, 67] 
-let n = num.map((x)=>{
-    return x*x
-})
-console.log(n)
+// let num = [32, 45, 76, 54, 56, 30, 33, 2, 4, 60, 67] 
+// let n = num.map((x)=>{
+//     return x*x
+// })
+// console.log(n)
 
   
 
